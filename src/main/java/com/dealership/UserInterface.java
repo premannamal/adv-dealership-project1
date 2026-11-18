@@ -80,7 +80,6 @@ public void display() {
 }
 
 private void init() {
-        // TODO: Load the dealership using DealershipFileManager in later phases
         DealershipFileManager fileManager = new DealershipFileManager();
         this.dealership = fileManager.getDealership();
     }
